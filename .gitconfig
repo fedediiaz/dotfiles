@@ -6,17 +6,6 @@
 [user]
 	name = fedediiaz
 	email = federico.n.diaz92@gmail.com
-	signingkey = 5C2A3E598B6297368199CB6323514B2776681ABB
-[core]
-	excludesfile = /Users/Fede/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree-Beta.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	signingkey = 
 [commit]
 	gpgsign = true
-[gpg]
-	program = /usr/local/MacGPG2/bin/gpg2
-	format = openpgp
