@@ -1,0 +1,20 @@
+# Keep the newline after each prompt
+add_newline = true
+
+[username]
+style_user = "green bold"
+style_root = "black bold"
+format = '\[[$user]($style) [@](white bold) '
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format = "[$hostname](bold green)[$ssh_symbol](bold blue)\\] at "
+trim_at = ""
+disabled = false
+
+# Show the regular bash prompt symbols
+[character]
+success_symbol = "[\\$](bold green)"
+error_symbol = "[\\$](bold red)"
